@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    width: 97%;
+    margin: auto;
+    border: 1px solid black;
+}
+.nav:hover {
+    background-color:cadetblue;
+}
+.nav>p {
+    padding: 0px 2px;
+    margin: 1%;
+    font-size: 22px;
+}
+.nav>p>a {
+    color: black;
+    text-decoration: none;
+}
+#displaydiv {
+    display: block;
+}
+.btn {
+    border: none;
+    font-size: 21px;
+    display: block ;
+}
+.btn:hover {
+    background-color: bisque;
+}
+.form {
+    font-size: 23px;
+}
+.form>input {
+    text-align: center;
+    padding: 5px 20px;
+}

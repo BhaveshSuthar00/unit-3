@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+.nav {
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    width: 97%;
+    margin: auto;
+    border: 1px solid black;
+}
+.nav:hover {
+    background-color:cadetblue;
+}
+.nav>p{
+    margin: 2%;
+}
