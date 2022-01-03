@@ -35,11 +35,10 @@ function dsiplayTable(arr){
         name.textContent = `Name : ${elem.strCategory}`;
         let price= Math.floor(Math.random()*(400-300))+230;
         let price_p = document.createElement('p');
-        price_p.textContent = price;
+        price_p.textContent = `${price}.00`;
         let button = document.createElement('button');
         button.addEventListener('click',function(){     
         document.getElementById('count').innerText++;
-
             cart(elem.strCategory,elem.strCategoryThumb,price);
         })
         button.setAttribute('class','btn');
